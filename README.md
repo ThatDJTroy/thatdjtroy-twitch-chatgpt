@@ -123,7 +123,8 @@ Create 3 new variables. The exact spelling of these variables is important:
 6.3. Optional Variables only for Render
 
 6. _**COMMAND_NAME**_
-  - (default: chat) (so the command is !chat)
+  - (default: chat)
+  - You can add an exclamation mark (!) before the command name to make look like a twitch command.
   - Accepts a string.
   - Defines the command that will be used to trigger the bot.
 
@@ -141,6 +142,7 @@ This step can be complicated.
 8. _**TWITCH_AUTH**_
   - Go to https://twitchapps.com/tmi/ and click on Connect with Twitch
   - Copy the token from the page and paste it in the TWITCH_AUTH variable  
+  - ⚠️ THIS TOKEN MIGHT EXPIRE AFTER A FEW DAYS, SO YOU MIGHT HAVE TO REPEAT THIS STEP EVERY FEW DAYS ⚠️
 
 Save the Changes.
 
